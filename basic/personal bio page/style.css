@@ -1,0 +1,20 @@
+
+body{
+    background-color: rgb(146, 238, 146);
+}
+
+/* Profile  */
+#name{
+    color: rgb(45, 45, 205);
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile img:hover{
+    transition: 2s;
+    width: 300px;
+    height: 300px;
+}
+

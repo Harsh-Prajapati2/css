@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align Items</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div id="div1"><h2>div 1</h2></div>
+        <div id="div2"><h5>div 2</h5></div>
+        <div id="div3"><h3>div 3</h3></div>
+    </div>
+
+    <style>
+        .flex-container {
+        display: flex;
+        width: 300px;
+        height: 150px;
+        background-color: lightgrey;
+        align-items: flex-start;
+        }
+        .flex-container div {
+        width: 70px;
+        min-height: 70px;
+        }
+        #div1 {
+        background-color: #7ff9ae;
+        }
+        #div2 {
+        background-color: #76bbfc;
+        }
+        #div3 {
+            background-color: red;
+        }
+    </style>
+</body>
+</html>

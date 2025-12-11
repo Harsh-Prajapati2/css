@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #dffafb;
+}
+
+/* body-header */
+
+#body-header{
+    height: 70vh;
+    background-image: url(sl_122319_26350_36.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+.horizontal-list li{
+    display: inline-block;
+    justify-content: center;
+}
+.navigation-bar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    /* justify-content: center; */
+    text-align: center;
+    /* display: inline; */
+    margin: 10px;
+    padding: 0px 8px 0px;
+    letter-spacing: 2px;   
+}
+.navigation-bar li a{
+    position: relative;
+    top: 30px;
+}
+.navigation-bar li a:hover{
+    color: #ae3434;
+    border-bottom: 1px solid white;
+    transition: color 0.5s,border-bottom 3s;
+}
+
+
+/* name & social links */
+.name-social{
+    position: relative;
+    top: 20%;
+}
+
+/* profile name */
+
+.profile-name{
+    font-size: 3.8rem;
+    color: white;
+    
+}
+
+.white-text-shadow{
+    text-shadow: 10px 10px 20px rgb(245, 245, 245);
+}
+.text-center{
+    text-align: center;
+}
+
+/* social link */
+.social-links li{
+    padding: 10px;
+}
+.social-links img{
+    width: 40px;
+    height: 40px;
+    color: rgb(223, 196, 196);
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px rgb(179, 170, 170);
+}
+
+.social-links a img:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 6px rgb(205, 72, 72);
+    transition: box-shadow 1s;
+}
+
+
+/* about section */
+#about{
+    height: auto;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(107, 107, 123); */
+}
+.my-image{
+    height: 40vh;
+    width: 40vh;
+    margin: auto;
+    margin-top: -15vh;
+}
+
+.my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 8px #d4bbbb;
+}
+
+.my-image img:hover{
+    box-shadow: 0px 0px 15px 10px #ffffff;
+}
+
+.about-text{
+    font-size: 1.3rem;
+    color: rgb(243, 135, 68);
+    text-align: center;
+    margin: 5% 30% 5%;
+}

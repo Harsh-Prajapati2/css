@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Form</title>
+
+</head>
+<body>
+    <h1>Customer Feedback Form</h1>
+    <em><h3>please provide your feedback below:</h3></em>
+
+    <form action="#" border="1">
+        Name : <input type="text" name="Name" id="name">
+        <br><br>
+        
+        Email : <input type="email" name="email" id="email">
+        <br><br>
+        
+        Feedback Type : 
+        <select name="feedback" id="feedback">
+            <option value="Complaint">Complaint</option>
+            <option value="Suggestion">Suggestion</option>
+            <option value="Compliment">Compliment</option>
+        </select>
+        <br><br>
+        
+        Overall Rating : 
+        <input type="radio" name="rating" id="">Excellent
+        <input type="radio" name="rating" id="">Good
+        <input type="radio" name="rating" id="">Average
+        <input type="radio" name="rating" id="">Poor
+        <br><br>
+        
+        What did you like?
+        <input type="checkbox" name="like" id="">Design
+        <input type="checkbox" name="like" id="">Content
+        <input type="checkbox" name="like" id="">Support
+        <input type="checkbox" name="like" id="">Speed
+        <br><br>
+
+        Additional Comments: <br>
+        <!-- <input type="textarea" width="100" height="100"> -->
+        <textarea name="comments" id="comments" width="100" height="100"></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

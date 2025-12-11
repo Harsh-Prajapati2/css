@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Max width</title>
+
+</head>
+<body>
+    <div id="div1">
+        <div id="div2">
+            This example shows how the max and min width property works.
+            This example shows how the max and min width property works.
+            This example shows how the max and min width property works.
+        </div>
+    </div>
+    <style>
+        #div1{
+            background-color:lightgrey;
+            max-width: 600px;
+            min-width: 300px;
+        }
+        #div2{
+            max-width: 600px;
+            min-width: 300px;
+            min-height: 150px;
+            max-height: 200px;
+        }
+    </style>
+
+
+    <!-- overflow -->
+
+    <div class="overflow">
+        OVERFLOW <br>
+        ● The overflow property defines what will happen if the content of an element
+        overflows, i.e. the height or width of the content is larger than the element’s height
+        or width.<br>
+        ● When the content of an element is too large to fit in a specified area, this property
+        adds a scroll bar or clips the content.<br>
+        The values that the overflow property can take are:
+        ● visible - This is the normal setting. The content overflows here and is seen
+        outside the box<br>
+        ● hidden - only the content that fits inside the box is visible and the
+        overflow is clipped<br>
+        ● scroll - all the content is visible through a scroll-bar added to the box<br>
+        ● auto - a scroll-bar gets added if content overflows<br>
+
+    </div>
+    <style>
+        .overflow{
+            background-color: aliceblue;
+            width: 600px;
+            height: 200px;
+            overflow: scroll;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,14 @@
+Test Cases:
+
+
+1. All images' global width should be updated correctly
+Set the width of the image globally to 100%. This will make all the images width equal to the width of its parent.
+
+2. The first image should be updated correctly
+Set an id to the parent of the "first image" ( i.e. 'coding-ninjas-logo.png') to "logo" and set the absolute width of the image to "210px".
+
+3. The width of required elements should be updated correctly
+Change the width of the article element with "blog content" as id from '1000px' to '90%' of the viewport width.
+
+4. Font Size of required elements should be updated correctly
+Change the size of the text of the element with id 'site-title' to 1.8rem'.

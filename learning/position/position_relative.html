@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+</head>
+<body>
+    <!-- relative : orignal postion na relative me jemke left:20px; -->
+    <div class="outer">
+       <div id="inner1">box1</div>
+       <div id="inner2">box2</div>
+       <div id="inner3">box3</div>
+    </div>
+</body>
+<style>
+    .outer{
+       padding : 30px;
+       width: 100%;
+       background-color: black;
+       color: white;
+       
+    }
+    /*
+    .outer div{
+        display: inline-block;
+    }
+    */
+    #inner1{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+    }
+    
+    #inner2{
+        height: 200px;
+        width: 200px;
+        background-color: cyan;
+        position: relative;
+        left: 20px;
+    }
+
+    
+    #inner3{
+        height: 200px;
+        width: 200px;
+        background-color: green;
+    }
+</style>
+
+</html>

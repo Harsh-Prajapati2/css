@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Grow Shrink</title>
+</head>
+<body>
+    <h1>Flex Grow</h1>
+    <div class="flex-grow">
+        <div id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+    </div>
+<style>
+
+
+</style>
+
+
+    <h1>Flex Shrink</h1>
+    <div class="flex-sh">
+        <div id="div4">div1</div>
+        <div id="div5">div2</div>
+        <div id="div6">div3</div>
+    </div>
+<style>
+        .flex-grow {
+    display: flex;
+    width: 420px;
+    height: 100px;
+    background-color: lightgrey;
+    }
+    .flex-grow div {
+    width: 70px;
+    margin: 10px;
+    }
+    #div1 {
+    background-color: #7ff9ae;
+    flex-grow: 0;
+    }
+    #div2 {
+    background-color: #76bbfc;
+    flex-grow: 3;
+    }
+    #div3 {
+    background-color: #d87b85;
+    flex-grow: 4;
+    }
+    .flex-sh {
+    display: flex;
+    width: 270px;
+    height: 100px;
+    background-color: lightgrey;
+    }
+    .flex-sh div{
+    width: 70px;
+    margin: 10px;
+    }
+    #div4{
+    background-color: #12c255;
+    flex-shrink: 0;
+    }
+    #div5{
+    background-color: #050c13;
+    flex-shrink: 1;
+    }
+    #div6 {
+    background-color: #ff0019;
+    flex-shrink: 2;
+    }
+
+</style>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Article Page</title>
+</head>
+<body>
+
+    <article>
+        
+        <header>
+            <h1>My First Blog Post on Semantic HTML</h1>
+            <p>
+                By <em>Harsh Prajapati</em>
+            </p>
+            <p>
+                Published: 
+                <time datetime="2025-10-26">October 26, 2025</time>
+            </p>
+        </header>
+        
+        <hr> <p>This is the first paragraph of my blog post. We are learning about semantic HTML and how it helps structure a webpage. Tags like <strong>&lt;article&gt;</strong>, <strong>&lt;header&gt;</strong>, and <strong>&lt;footer&gt;</strong> give meaning to our content, which is great for accessibility and search engines.</p>
+
+        <figure>
+            <img src="./technology-communication-icons-symbols-concept.jpg" alt="A placeholder image for the blog post" height="300" width="400">
+            <figcaption>This is an image caption for our post.</figcaption>
+        </figure>
+
+        <p>In this post, we will explore several key tags. It's important to understand that these tags don't just *look* different (in fact, many look the same by default), but they *tell* the browser what kind of content they hold.</p>
+
+        <blockquote>
+            <p>"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."</p>
+            <cite>— Tim Berners-Lee</cite>
+        </blockquote>
+
+        <p>After the quote, we can continue with more text. This final paragraph wraps up our thoughts on the topic before we get to the footer of the article.</p>
+
+        <footer>
+            <p><strong>Categories:</strong> <em>HTML, Web Development, Tutorial</em></p>
+            <p><strong>Tags:</strong> <em>#html, #semantic, #learning</em></p>
+        </footer>
+
+    </article>
+
+    <hr> <section>
+        <h2>Comments</h2>
+
+        <ul>
+            <li>
+                <p><strong>Commenter 1:</strong></p>
+                <p>Great article! Very helpful.</p>
+            </li>
+            <li>
+                <p><strong>Commenter 2:</strong></p>
+                <p>I never knew what &lt;blockquote&gt; was for. Thanks!</p>
+            </li>
+        </ul>
+
+        <h3>Leave a Comment:</h3>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <br>
+            <div>
+                <label for="comment">Comment:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit Comment</button>
+        </form>
+    </section>
+
+</body>
+</html>
