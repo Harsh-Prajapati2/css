@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* header seaction */
+header{
+    justify-items: space-between;
+}
+header div,nav{
+    display: inline;
+    /* font-size: 1.2rem; */
+    margin: 20px;
+    
+
+}
+#header-scetion div{
+    background-color: white;
+    font-size: 1.2rem;
+    
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin: 20px;
+}
+
+.logo::after{
+    content: "Navis";
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* margin: -20px; */
+}
+
+div button{
+    position: relative;
+    right: 0;
+}
+
+
+/* about-our-firm */
+#about-our-firm{
+    
+    background-color: #cfd1d7;
+    height: auto;
+    width: auto;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+#about-our-firm div{
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding: 2%;
+
+}
+.text-about{
+    /* flex-grow: 3; */
+    width: 20%;
+    vertical-align: top;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.about{
+    /* flex-grow: 7; */
+    width: 60%;
+    margin-left: 5%;
+}
+
+.about div{
+    margin-top: 10px;
+    margin-right: -10px;
+}
+
+.text-about{
+    padding: 20px 70px;
+    font-size: 1.5rem;
+}
+
+/* button */
+#get-started{
+    color: white;
+    background-color: rgb(86, 86, 249);
+    padding: 10px;
+    border: 0.5px solid grey;
+    border-radius: 30px;
+}
+
+#free-trail{
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    border: 0.5px solid blue;
+    border-radius: 30px;
+}
+
+.about-our-firm-image img{
+    width: 90vw;
+    height: 100%;
+    /* margin: -0.1vw 20vh 50px; */
+    margin-top: -10px;
+    margin-bottom: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 30px;
+}
+
+/* infos */
+#info{
+    background-color: white;
+    
+}
+
+#info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#info div h1{
+    font-size: 2.5rem;
+}
+#info div{
+    /* border: 1px solid black; */
+    height: 30vh;
+    width: 20%;
+    margin: 10px;
+}
+
+#info div div{
+    width: 90%;
+    width: 90vmix;
+    font-size: 0.8rem;
+    word-spacing: 1px;
+}
+
+/* about-us section */
+#about-us{
+    background-color: #cfd1d7;
+    height: auto;
+    width: 100vw;
+    margin: 15px;
+    border-radius: 20px;
+    /* display: inline-block; */
+    display: flex;
+}
+
+#about-us div{
+    display: inline-block;
+    /* border: 1px solid black; */
+    margin: 15px;
+    
+}
+
+.about-us-text{
+    width: 45vw;
+    height: 45vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    
+}
+.about-us-text div h1{
+    margin-top: 0%;
+}
+.about-us-img{
+    width: 45%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.about-us-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    /* margin: 10px; */
+    /* padding: 10px; */
+}
+
+
+.btn-about-us{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    word-spacing: 3px;
+    background-color: #e6e8ec;
+}
+.about-us-text div{
+    margin-top: 25%;
+}
+.about-us-text h1{
+    position: relative;
+    margin-top: 45%;
+    /* text-align: end; */
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 5px;
+}
+.about-us-text p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+/* experties */
+#experties{
+    background-color: white;
+    width: 100%;
+}
+
+/* employee */
+.employee{
+    display: flex;
+    flex-wrap: wrap;
+}
+.employee .card{
+    margin: 20px;
+    position: relative;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    
+}
+.employee .card img{
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    position: relative;
+    display: block;
+    /* overflow: hidden; */
+    /* z-index: 4; */
+    /* position: absolute; */
+    
+}
+/* #employee-details{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+
+} */
+
+
+.employee-details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: rgba(91, 91, 184, 1);
+    padding: 20px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+}
+
+.employee .card:hover .employee-details{
+    opacity: 1;
+}
+
+.employee-details{
+    display: block;
+    
+}
+
+.employee-details .social-links a img{
+    height: 30px;
+    width: 30px;
+}

@@ -86,17 +86,17 @@ html,body{
 
 
 /* about section */
-#about{
-    height: auto;
-    width: 100%;
-    position: relative;
-    /* background-color: rgb(107, 107, 123); */
-}
 .my-image{
     height: 40vh;
     width: 40vh;
     margin: auto;
     margin-top: -15vh;
+}
+#about{
+    height: auto;
+    width: 100%;
+    /* position: relative; */
+    /* background-color: rgb(107, 107, 123); */
 }
 
 .my-image img{
