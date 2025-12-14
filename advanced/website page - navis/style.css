@@ -198,15 +198,32 @@ div button{
     position: relative;
     margin-top: 45%;
     /* text-align: end; */
-    font-size: 1.2rem;
+    font-size: 1.2em;
     padding: 10px;
     margin: 5px;
 }
 .about-us-text p{
-    font-size: 0.8rem;
+    font-size: 0.8em;
     margin-top: 10px;
     padding: 10px;
     margin: 5px;
+}
+@media screen and (max-width: 768px){
+    #about-us{
+        height: 70vh;
+    }
+    .about-us-img img{
+        width: 100%;
+        height: 60%;
+        border-radius: 5%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #about-us{
+        height: 90vh;
+        overflow: hidden;
+    }
 }
 
 
@@ -215,7 +232,31 @@ div button{
     background-color: white;
     width: 100%;
 }
-
+.btn-expertise{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    word-spacing: 3px;
+    background-color: #ffffff;
+    letter-spacing: 0.5px;
+}
+#experties span{
+    display: inline-block;
+    text-align: start;
+    align-self: auto;
+    margin: 20px;
+    color: #93959b;
+}
+#experties h1{
+    font-size: 1.2rem;
+    width: 45%;
+    color: black;
+}
+#experties span{
+    font-size: 0.8rem;
+    width: 45%;
+}
 /* employee */
 .employee{
     display: flex;
@@ -277,4 +318,56 @@ div button{
 .employee-details .social-links a img{
     height: 30px;
     width: 30px;
+}
+
+
+/* milstones  */
+#milestones{
+    background-color: #cfd1d7;
+    width: 100%;
+    height: auto;
+}
+.btn-milestones{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 30px;
+    word-spacing: 3px;
+    background-color: #cfd1d7;
+    letter-spacing: 0.5px;
+    width: 500px;
+}
+#milestones span{
+    display: inline-block;
+    text-align: start;
+    align-self: auto;
+    margin: 10px;
+    color: #93959b;
+}
+#milestones h1{
+    font-size: 1.2em;
+    width: 45%;
+    color: black;
+}
+#milestones span{
+    font-size: 0.8em;
+    width: 45%;
+}
+
+#milestones div{
+    display: inline-block;
+    width: 45%;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.milestones-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px
+}
+
+.milestones-details{
+    height: 100%;
+    width: 100%;
 }
