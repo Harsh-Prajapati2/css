@@ -1,0 +1,17 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    top: 30%;
+    left: 30%;
+    position: absolute;
+    transition: 1s steps(6,end) ;
+}
+
+
+.box1:hover{
+    translate: 200px;
+    scale: 2 2;
+
+
+}
